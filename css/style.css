@@ -695,7 +695,7 @@ main {
     position: absolute;
     top: 20px;
     bottom: 11px;
-    right: 350px;
+    right: 19px;
   }
   .logo-container {
     display: flex;
@@ -709,7 +709,7 @@ main {
   .logo {
     justify-content: center;
     display: flex;
-    margin-right: 299px;
+    /* margin-right: 299px; */
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -832,6 +832,10 @@ main {
     /* margin: 0;
     padding: 0; */
   }
+  .container-foto-vet img {
+    width: 100%;
+    height: 100%;
+  }
   .container-foto-vet {
     width: 100%;
     margin: 0px auto;
@@ -841,11 +845,20 @@ main {
   .form-container {
     margin-top: 50px;
     width: 90%;
-    margin: 41vh auto 40px;
-    padding-left: 150px;
+    margin: 198vh auto 39px;
+    padding-left: 67px;
     display: flex;
     order: 1;
     flex-direction: column;
+  }
+  .container-pai-footer{
+    width: 100%;
+
+
+
+    align-items: center;
+    justify-content: space-around;
+
   }
   .social-links span {
     display: none;
