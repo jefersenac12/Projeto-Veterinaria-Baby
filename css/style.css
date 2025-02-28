@@ -695,7 +695,7 @@ main {
     position: absolute;
     top: 20px;
     bottom: 11px;
-    right: 50px;
+    right: 30px;
   }
   .logo-container {
     display: flex;
@@ -711,13 +711,24 @@ main {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+  body {
+    width: 100%;
+    /* height: 100vh; */
+    justify-content: center;
+  }
+  header {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+  }
 
   .nav-menu {
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-    background: #E6F2F3;
+    background: #e6f2f3;
     color: #fff;
     flex-direction: column;
     gap: 0;
@@ -773,10 +784,8 @@ main {
     align-items: center;
     justify-content: center;
     margin: 0;
-  
-    
   }
-  .titulo-filho{
+  .titulo-filho {
     margin-left: 0;
   }
   .text_nós {
@@ -787,12 +796,9 @@ main {
   }
   .container_02 {
     display: flex;
-
- 
   }
   .container_02 h1 {
     text-align: center;
-
   }
   .container_03 {
     visibility: hidden;
@@ -811,7 +817,6 @@ main {
   }
   .container-pai-img {
     width: 90%;
-    
   }
   .text_estrutura {
     text-align: center;
@@ -839,11 +844,11 @@ main {
     order: 1;
     flex-direction: column;
   }
-  .social-links span{
+  .social-links span {
     display: none;
   }
-  .social-links img{
-   margin-left: 10px;
+  .social-links img {
+    margin-left: 10px;
   }
 }
 
@@ -879,7 +884,7 @@ main {
     top: 100%;
     left: 0;
     width: 100%;
-    background: #E6F2F3;
+    background: #e6f2f3;
     color: #fff;
     flex-direction: column;
     gap: 0;
@@ -1044,7 +1049,7 @@ main {
     top: 100%;
     left: 0;
     width: 100%;
-    background: #E6F2F3;
+    background: #e6f2f3;
     color: #fff;
     flex-direction: column;
     gap: 0;
@@ -1088,7 +1093,6 @@ main {
   .titulo-Texto {
     text-align: center;
     width: 100%;
-   
 
     font-size: 18px;
   }
@@ -1122,9 +1126,8 @@ main {
     text-align: center;
     width: 100%;
     margin: 0;
-
   }
-  .sobre_nos{
+  .sobre_nos {
     padding: 50px;
   }
 
@@ -1160,7 +1163,6 @@ main {
   }
 
   .container-foto-vet {
-  
     /* width: 100%; */
     /* margin: 0px auto; */
     margin-left: 32px;
@@ -1173,7 +1175,7 @@ main {
     display: flex;
     justify-content: center;
   }
-  .endereco-footer{
+  .endereco-footer {
     margin-top: 50px;
   }
 
