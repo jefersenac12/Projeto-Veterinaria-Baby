@@ -695,19 +695,21 @@ main {
     position: absolute;
     top: 20px;
     bottom: 11px;
-    right: 30px;
+    right: 389px;
   }
   .logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 350px;
+
     top: 20px;
     bottom: 11px;
   }
 
   .logo {
-    margin-right: 39vh;
+    justify-content: center;
+    display: flex;
+    margin-right: 400px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
