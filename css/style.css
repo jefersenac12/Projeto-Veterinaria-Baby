@@ -399,6 +399,7 @@ main {
 .full-scaner {
   height: 75vh; /* Cada seção ocupará 100% da altura da tela */
 }
+
 .container-pai-img {
   display: flex;
   justify-content: center;
@@ -520,7 +521,7 @@ main {
 .container-formulario {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  
   width: 80%;
   justify-content: center;
 
@@ -844,7 +845,7 @@ main {
   }
   .form-container {
     width: 100%;
-     margin: 100vh auto 39px; 
+     margin: 150vh auto 39px; 
     padding-left: 67px;
     order: 1;
 
