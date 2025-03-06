@@ -517,14 +517,13 @@ main {
 }
 
 /* formulario  */
-
 .container-formulario {
-  /* padding: 50px; */
-  width: 80%;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
   justify-content: center;
-  justify-content: space-evenly;
-  margin-top: 130px;
+
 }
 .container-foto-vet {
   display: flex;
@@ -660,8 +659,8 @@ main {
   color: white;
 }
 .social-links img {
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
 }
 
 .social-links span {
@@ -720,7 +719,7 @@ main {
   }
   header {
     display: flex;
-    width: 102%;
+    /* width: 102%; */
     justify-content: center;
     align-items: center;
   }
@@ -818,20 +817,21 @@ main {
     justify-content: center;
     padding: 0;
   }
+
   .container-pai-img {
     width: 90%;
+    display: flex;
+    justify-content: center;
   }
+   .container-img {
+    width: 90%;
+    height: 500px;
+  }
+
   .text_estrutura {
     text-align: center;
   }
 
-  .container-formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* margin: 0;
-    padding: 0; */
-  }
   .container-foto-vet img {
     width: 100%;
     height: 100%;
@@ -843,22 +843,202 @@ main {
     order: 2;
   }
   .form-container {
-    margin-top: 50px;
-    width: 90%;
-    margin: 198vh auto 39px;
+    width: 100%;
+     margin: 100vh auto 39px; 
     padding-left: 67px;
-    display: flex;
     order: 1;
-    flex-direction: column;
+
+  }
+  #Trabalhe{
+    margin-top: 100px;
   }
   .container-pai-footer{
     width: 100%;
-
-
-
     align-items: center;
     justify-content: space-around;
 
+  }
+  .video-banner {
+    height: 60vh;
+  }
+
+  .content-overlay {
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 90%;
+    top: 40%;
+  }
+
+  .content-overlay h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .content-overlay p {
+    font-size: 1.2rem;
+  }
+
+  .content-overlay .logo-img {
+    width: 80px;
+    height: 80px;
+    top: -50px;
+  }
+
+  /* Seções Principais */
+  .container-Titulo {
+    padding: 30px 15px;
+  }
+
+  .titulo-Texto {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .titulo-Texto h1 {
+    font-size: 1.8rem;
+  }
+
+  /* Cards */
+  .container-pai {
+    margin: 0;
+    padding: 15px;
+    gap: 30px;
+  }
+
+  .titulo-filho {
+    min-width: auto;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .cards-pai {
+    padding: 15px;
+  }
+
+  .card-filho {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  /* Sobre Nós */
+  .container_nós {
+    padding: 30px 15px;
+  }
+
+  .text_nós {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .container_02 {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  /* Estrutura */
+  .container_estrutura {
+    margin: 50px 0;
+    padding: 0 15px;
+  }
+
+  .text_estrutura {
+    width: 100%;
+    padding: 20px;
+  }
+  
+
+  .filho-estrutura {
+    flex: 0 0 100%;
+    max-width: 300px;
+  }
+
+  /* Formulário */
+  .container-formulario {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 15px;
+  }
+  .container-formulario {
+   
+  }
+
+  .container-foto-vet {
+    margin: 0;
+    order: 2;
+    width: 100%;
+    padding: 0;
+  }
+
+  .container-foto-vet img {
+    width: 100%;
+    height: auto;
+  }
+
+  .form-container {
+    order: 1;
+
+  }
+
+  /* Footer */
+  .container-pai-footer {
+    padding: 30px 15px;
+  }
+
+  .Direitos-footer {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .copyrigtht {
+    font-size: 1rem;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  /* Modal */
+  .modal-content {
+    max-width: 95%;
+    width: 100%;
+  }
+
+  /* Ajustes Específicos */
+  .cta-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .container-pai-img {
+    height: 400px;
+    width: 95%;
+  }
+  .container-img {
+    width: 100%;
+    padding: 0 15px;
+    margin: 30px 0;
+  }
+
+  .container-pai-img {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .container-pai-img {
+    background-attachment: scroll;
+  }
+  .container-pai-img img {
+    max-width: 100%;
+    height: auto;
   }
   .social-links span {
     display: none;
