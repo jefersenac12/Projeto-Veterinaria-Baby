@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -12,30 +13,30 @@ body {
   flex-direction: column;
   min-height: 100vh;
   overflow-x: hidden;
+  font-family: "DM Sans", sans-serif;
 }
-/* header  inicio   */
+
+/* =================================================== */
+/* Header */
+/* =================================================== */
 header {
-  position: sticky;
-  top: 0;
-  position: absolute;
   position: fixed;
+  top: 0;
   width: 100%;
   background-color: #e6f2f3;
-  /* padding: 1rem 1rem; */
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 25px;
   z-index: 3;
+  padding: 10px 0;
 }
 
 .logo {
   width: 135px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 10px;
 }
+
 /* Menu Desktop */
 .nav-menu {
   display: flex;
@@ -54,6 +55,7 @@ header {
 .nav-menu a:hover {
   color: #4d7a8f;
 }
+
 .nav-menu li {
   display: inline-block;
   margin: 0 10px;
@@ -62,9 +64,6 @@ header {
 .nav-menu li a {
   font-family: "DM Sans", serif;
   font-weight: 600;
-  /* display: flex; */
-  align-items: center;
-  justify-content: center;
 }
 
 .cta-button {
@@ -101,10 +100,10 @@ header {
   color: #6298b2;
   cursor: pointer;
 }
-/* header  fim  */
 
-/* main section video incio   */
-
+/* =================================================== */
+/* Banner De Video */
+/* =================================================== */
 .video-banner {
   position: relative;
   width: 100%;
@@ -127,19 +126,16 @@ header {
   filter: brightness(0.7) contrast(1.2);
 }
 
-/* main inicio   */
-
 .content-overlay {
   position: absolute;
   top: 45%;
-
   left: 30px;
-  /* transform: translate(-50, -50%); */
   background: rgba(0, 0, 0, 0);
   color: white;
   padding: 1rem;
   height: 2px;
 }
+
 .content-overlay h1 {
   color: #6298b2;
   font-size: 3rem;
@@ -159,7 +155,6 @@ header {
 
 .content-overlay p {
   font-size: 2rem;
-  /* line-height: 1.5; */
   margin-bottom: 0;
 }
 
@@ -183,8 +178,10 @@ header {
   display: flex;
   align-items: center;
 }
-/* main section video fim  */
 
+/* =================================================== */
+/* Conteudo Principal */
+/* =================================================== */
 main {
   flex-grow: 1;
   display: flex;
@@ -193,28 +190,27 @@ main {
   justify-content: center;
 }
 
-/* section  container-Titulo inicio */
-
+/* =================================================== */
+/* Seção De Titulo */
+/* =================================================== */
 .container-Titulo {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   padding: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 .titulo-Texto {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
   text-align: center;
   box-shadow: 1px 10px 5px rgba(224, 242, 247, 0.8);
   background-color: #c8f8fc;
   border-radius: 10px;
   width: 70%;
 }
+
 .titulo-Texto h1 {
   color: #6298b2;
   font-family: "DM Sans", serif;
@@ -226,34 +222,31 @@ main {
   font-family: "DM Sans", serif;
   font-size: 1.2rem;
 }
-/* section  container-Titulo fim */
-/* card-pai inicio*/
 
+/* =================================================== */
+/* Cards De Serviços */
+/* =================================================== */
 .container-principal {
   display: flex;
   justify-content: center;
 }
 
 .container-pai {
-  margin-left: 60px;
-  margin-right: 60px;
+  margin: 0 60px;
   display: flex;
   flex-wrap: nowrap;
-  flex-direction: row;
   gap: 20px;
-  /* background-color: aqua; */
   max-width: 1200px;
   justify-content: center;
-  /* width: 100%; */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   align-items: center;
 }
+
 .titulo-filho {
   color: #6298b2;
   border-radius: 10px;
-  /* flex: 0 -1 300px; */
   min-height: 400px;
   min-width: 300px;
   padding: 10px;
@@ -263,6 +256,7 @@ main {
   flex-direction: column;
   justify-content: center;
 }
+
 .titulo-filho:hover {
   color: rgb(255, 255, 255);
   background-color: #005d7f;
@@ -278,30 +272,35 @@ main {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .titulo-filho li {
   list-style: none;
   gap: 20px;
-  font-size: 0, 99rem;
+  font-size: 0.99rem;
   font-family: "DM Sans", serif;
   text-align: center;
 }
+
 .titulo-filho img {
   width: 90px;
   align-items: center;
   margin: 0 auto;
 }
+
 .titulo-filho ul {
   padding: 0;
 }
-/* conteiner-pai e titulo-filho fim */
 
-/* cards-pai e card-filho inicio*/
+/* =================================================== */
+/* Cards Individuais */
+/* =================================================== */
 .cards-pai {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
 }
+
 .card-filho {
   border-radius: 8px;
   background-color: #eafcfd;
@@ -311,37 +310,41 @@ main {
   width: 221px;
   height: 227px;
 }
+
 .card-filho:hover {
   background-color: #c8f8fc;
 }
+
 .card-filho p {
   color: #6298b2;
   font-family: "DM Sans", serif;
-  font-size: 0, 99rem;
+  font-size: 0.99rem;
 }
+
 .card-filho img {
   width: 90px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
 
+/* =================================================== */
+/* Seção Sobre Nós */
+/* =================================================== */
 .container_nós {
-  padding-top: 78px;
-  padding-bottom: 50px;
+  padding: 78px 0 50px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
+
 .text_nós {
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin: 40px 0 30px;
   font-size: 1.3rem;
   font-family: "DM Sans", serif;
   font-weight: 600;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
   text-align: center;
   box-shadow: 1px 10px 5px rgba(224, 242, 247, 0.8);
   background-color: #c8f8fc;
@@ -354,21 +357,25 @@ main {
   display: flex;
   justify-content: center;
 }
+
 .container {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 50px;
 }
+
 .container_02 {
   display: flex;
   width: 550px;
 }
+
 .container_02 h1 {
   color: #6298b2;
   font-family: "DM Sans", serif;
   font-weight: 300;
   font-size: 1.2rem;
 }
+
 .container_03 {
   justify-content: center;
   display: flex;
@@ -376,6 +383,7 @@ main {
   width: 100px;
   margin-right: 300px;
 }
+
 .container_03 img {
   width: 450px;
   height: 400px;
@@ -385,15 +393,19 @@ main {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-/* foto cachorro */
+/* =================================================== */
+/* Galeria De Imagens */
+/* =================================================== */
 .container-img {
   display: flex;
   justify-content: center;
   padding: 0;
 }
+
 .full-scaner {
-  height: 75vh; /* Cada seção ocupará 100% da altura da tela */
+  height: 75vh;
 }
+
 .container-pai-img {
   display: flex;
   justify-content: center;
@@ -405,38 +417,36 @@ main {
   width: 60%;
   height: 850px;
   border-radius: 15px;
-  /* margin-bottom: 50px; */
 }
 
+/* =================================================== */
 /* Estrutura */
+/* =================================================== */
 .container_estrutura {
-  /* padding-top: 67px;
-  padding-bottom:27px; */
+  margin: 205px 0 98px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  margin-top: 205px;
-  margin-bottom: 98px;
 }
+
 .text_estrutura {
-  /* margin-top: 40px;
-  margin-bottom: 30px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
   text-align: center;
   box-shadow: 1px 10px 5px rgba(224, 242, 247, 0.8);
   background-color: #c8f8fc;
   border-radius: 10px;
   width: 55%;
 }
+
 .text_estrutura h2 {
   font-family: "DM Sans", serif;
   font-weight: 600;
   color: #6298b2;
   font-size: 2rem;
 }
+
 .filho-estrutura h1 {
   font-size: 1.3rem;
   color: #6298b2;
@@ -444,6 +454,7 @@ main {
   font-family: "DM Sans", serif;
   font-weight: 600;
 }
+
 .filho-estrutura h1:hover {
   color: rgb(111, 193, 207);
 }
@@ -455,21 +466,24 @@ main {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .filho-estrutura {
   margin: 10px;
-  gap: 50;
   text-align: center;
   cursor: pointer;
-  flex: 0 0 calc(33.333% - 20px);
-  box-sizing: border-box;
   flex: 0 0 220px;
 }
+
 .filho-estrutura img {
   width: 100%;
   height: 120px;
   object-fit: cover;
   border-radius: 8px;
 }
+
+/* =================================================== */
+/* Modal De Imangens */
+/* =================================================== */
 .modal {
   display: none;
   position: fixed;
@@ -493,6 +507,7 @@ main {
   width: 80%;
   max-width: 700px;
 }
+
 .close {
   position: absolute;
   top: 15px;
@@ -502,6 +517,7 @@ main {
   font-weight: bold;
   cursor: pointer;
 }
+
 #caption {
   color: #6298b2;
   font-size: 20px;
@@ -510,20 +526,18 @@ main {
   font-weight: bold;
   display: block;
 }
-section {
-  padding-top: 0px; 
 
-}
-
-/* formulario  */
+/* =================================================== */
+/* Formulario Trabalhe Conosco */
+/* =================================================== */
 .container-formulario {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 80%;
   justify-content: center;
-
 }
+
 .container-foto-vet {
   display: flex;
   margin-left: 300px;
@@ -546,17 +560,20 @@ section {
   color: #6298b2;
   margin-right: 100px;
 }
+
 .form-container h2 {
   margin-bottom: 20px;
 }
+
 .form-group {
   margin-bottom: 8px;
 }
-.form-group label {
 
+.form-group label {
   display: block;
   margin-bottom: 2px;
 }
+
 .form-group input,
 .form-group textarea,
 .form-group select {
@@ -567,9 +584,11 @@ section {
   font-family: "DM Sans", serif;
   color: #6298b2;
 }
+
 .form-group textarea {
   resize: vertical;
 }
+
 .form-group input[type="submit"] {
   background-color: #6298b2;
   color: #fff;
@@ -582,38 +601,44 @@ section {
 .form-group input[type="submit"]:hover {
   background-color: rgb(111, 193, 207);
 }
+
 .radio-options {
   display: flex;
-  flex-direction: column; 
-  gap: 10px; 
+  flex-direction: column;
+  gap: 10px;
   margin-top: 10px;
 }
 
 .radio-item {
   display: flex;
-  flex-direction: row; 
-  align-items: center; 
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  /* width: 80px; */ /* largura do radio */
+  gap: 10px;
   margin-bottom: 5px;
-  gap: 10px; 
 }
 
-/* animações inicio site  */
+/* =================================================== */
+/* Animações */
+/* =================================================== */
 .animate__fadeInDown {
   animation-duration: 4s;
   animation-delay: 0s;
 }
+
 .animate__slideInLeft {
   animation-duration: 4s;
   animation-delay: 0s;
 }
+
 .animate__slideInRight {
   animation-duration: 2s;
   animation-delay: 0ms;
 }
 
-/* footer inicio  */
+/* =================================================== */
+/* Footer*/
+/* =================================================== */
 .container-pai-footer {
   background-color: #1c1d24;
   color: white;
@@ -623,13 +648,13 @@ section {
 .logo-footer {
   margin-bottom: 24px;
 }
+
 .logo-footer img {
   height: auto;
   object-fit: cover;
 }
 
 .endereco-footer {
-  /* display: flex; */
   align-items: flex-end;
   justify-content: flex-end;
   gap: 8px;
@@ -637,6 +662,7 @@ section {
   font-size: 20px;
   margin-bottom: 24px;
 }
+
 .endereco-footer a {
   text-decoration: none;
 }
@@ -653,6 +679,7 @@ section {
   margin-bottom: 24px;
   border-top: 1px solid #374151;
 }
+
 .copyrigtht {
   color: #9ca3af;
   font-size: 25px;
@@ -663,7 +690,8 @@ section {
   gap: 24px;
   align-items: center;
 }
-.social-links {
+
+.social-links a {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -675,6 +703,7 @@ section {
 .social-links:hover {
   color: white;
 }
+
 .social-links img {
   width: 30px;
   height: 30px;
@@ -683,25 +712,11 @@ section {
 .social-links span {
   font-family: monospace;
 }
-.social-links a {
-  display: flex;
-  align-items: center;
-}
 
-/* animações inicio site  */
-.animate__fadeInDown {
-  animation-duration: 4s;
-  animation-delay: 0s;
-}
-.animate__slideInLeft {
-  animation-duration: 4s;
-  animation-delay: 0s;
-}
-.animate__slideInRight {
-  animation-duration: 2s;
-  animation-delay: 0ms;
-}
-/* media queris */
+/* =================================================== */
+/* Media Queries */
+/* =================================================== */
+
 @media (max-width: 768px) {
   #menu-button {
     font-family: "DM Sans", serif;
@@ -713,11 +728,11 @@ section {
     bottom: 11px;
     right: 19px;
   }
+
   .logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
-
     top: 20px;
     bottom: 11px;
   }
@@ -725,34 +740,34 @@ section {
   .logo {
     justify-content: center;
     display: flex;
-    /* margin-right: 299px; */
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
   body {
     width: 100%;
-    /* height: 100vh; */
     justify-content: center;
   }
+
   header {
     display: flex;
-    /* width: 102%; */
     justify-content: center;
     align-items: center;
   }
 
- #servicos {
-    padding-top: 151px;
+  #Servicos {
+    padding-top: 168px;
   }
-  #Sobre{
-    padding-top: 151px;
+  #Sobre {
+    padding-top: 168px;
   }
   #Estrutura {
-    padding-top: 151px;
+    padding-top: 168px;
   }
-  #Trabalhe {
-    padding-top: 151px;
+  #Trabalhe{
+    padding-top: 168px;
   }
+
   .nav-menu {
     position: absolute;
     top: 100%;
@@ -769,38 +784,38 @@ section {
     padding-left: 30px;
     padding-right: 30px;
   }
+
   .social-icons {
     display: flex;
     justify-content: left;
-    /* align-items: center; */
     padding-top: 5px;
   }
+
   .nav-menu.active {
     max-height: 500px;
-    /* padding: 20px 0; */
   }
 
   .nav-menu li {
     padding: 15px 0;
     margin: 0;
-    /* border-bottom: 1px solid#5db6e2; */
-    cursor: pointer;
   }
 
-  /* Links com padding à direita */
   .nav-menu a {
     text-align: left;
-    /* color: ; */
     display: block;
-    /* width: 100%; */
     padding-right: 20px;
   }
+
+  /* ====================
+     SEÇÃO DE TÍTULO 
+  ==================== */
   .container-Titulo {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10px;
   }
+
   .titulo-Texto {
     text-align: center;
     width: 100%;
@@ -808,6 +823,10 @@ section {
     padding: 0;
     font-size: 20px;
   }
+
+  /* ====================
+     CARDS DE SERVIÇOS 
+  ==================== */
   .container-pai {
     flex-direction: column;
     gap: 50px;
@@ -815,30 +834,42 @@ section {
     justify-content: center;
     margin: 0;
   }
+
   .titulo-filho {
     margin-left: 0;
   }
+
+  /* ====================
+     SOBRE NÓS 
+  ==================== */
   .text_nós {
     text-align: center;
     width: 100%;
     margin: 0;
     padding: 0;
   }
+
   .container_02 {
     display: flex;
   }
+
   .container_02 h1 {
     text-align: center;
   }
+
   .container_03 {
     visibility: hidden;
     display: none;
   }
+
   .container_03 img {
     margin: 0;
     padding: 0;
   }
 
+  /* ====================
+     Estrutura 
+  ==================== */
   .container_estrutura {
     flex-direction: column;
     align-items: center;
@@ -851,7 +882,8 @@ section {
     display: flex;
     justify-content: center;
   }
-   .container-img {
+
+  .container-img {
     width: 90%;
     height: 500px;
   }
@@ -860,38 +892,50 @@ section {
     text-align: center;
   }
 
+  /* ====================
+     Formulario 
+  ==================== */
   .container-foto-vet img {
     width: 100%;
     height: 100%;
   }
+
   .container-foto-vet {
     width: 100%;
     margin: 0px auto;
     padding-left: 50px;
     order: 2;
   }
+
   .form-container {
     width: 110%;
-     /* margin: 100vh auto 39px;  */
     padding-left: 67px;
     order: 1;
   }
+
   .form-container h2 {
     text-align: center;
   }
+
   .form-container {
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
     order: 1;
   }
-  
-  .container-pai-footer{
+
+  /* ====================
+     Footer
+  ==================== */
+  .container-pai-footer {
     width: 100%;
     align-items: center;
     justify-content: space-around;
-
   }
+
+  /* ====================
+     Banner  Vídeo
+  ==================== */
   .video-banner {
     height: 80vh;
   }
@@ -901,7 +945,6 @@ section {
     transform: translateX(-50%);
     text-align: center;
     width: 90%;
-    top: 40%;
   }
 
   .content-overlay h1 {
@@ -919,7 +962,9 @@ section {
     top: -50px;
   }
 
-  /* Seções Principais */
+  /* ====================
+     Seçoes  Principais 
+  ==================== */
   .container-Titulo {
     padding: 30px 15px;
   }
@@ -933,7 +978,9 @@ section {
     font-size: 1.8rem;
   }
 
-  /* Cards */
+  /* ====================
+     Cards de Servicos
+  ==================== */
   .container-pai {
     margin: 0;
     padding: 15px;
@@ -956,11 +1003,14 @@ section {
     height: auto;
     padding: 20px;
   }
+
   .full-scaner {
     height: auto;
   }
 
-  /* Sobre Nós */
+  /* ====================
+     Sobre Nós
+  ==================== */
   .container_nós {
     padding: 30px 15px;
   }
@@ -976,7 +1026,9 @@ section {
     padding: 0 15px;
   }
 
-  /* Estrutura */
+  /* ====================
+     Estrutura 
+  ==================== */
   .container_estrutura {
     margin: 50px 0;
     padding: 0 15px;
@@ -986,14 +1038,15 @@ section {
     width: 100%;
     padding: 20px;
   }
-  
 
   .filho-estrutura {
     flex: 0 0 100%;
     max-width: 300px;
   }
 
-  /* Formulário */
+  /* ====================
+     Formulário 
+  ==================== */
   .container-formulario {
     flex-direction: column;
     width: 100%;
@@ -1012,9 +1065,9 @@ section {
     height: auto;
   }
 
-
-
-  /* Footer */
+  /* ====================
+     Footer
+  ==================== */
   .container-pai-footer {
     padding: 30px 15px;
   }
@@ -1033,7 +1086,9 @@ section {
     justify-content: center;
   }
 
-  /* Modal */
+  /* ====================
+     Modal
+  ==================== */
   .modal-content {
     max-width: 95%;
     width: 100%;
@@ -1048,6 +1103,7 @@ section {
     height: 400px;
     width: 95%;
   }
+
   .container-img {
     width: 100%;
     padding: 0 15px;
@@ -1066,13 +1122,16 @@ section {
   .container-pai-img {
     background-attachment: scroll;
   }
+
   .container-pai-img img {
     max-width: 100%;
     height: auto;
   }
+
   .social-links span {
     display: none;
   }
+
   .social-links img {
     margin-left: 10px;
   }
