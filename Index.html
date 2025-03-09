@@ -5,19 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BabyDogCentro Médico Veterinário</title>
     <link rel="stylesheet" href="./css/style.css" />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
   </head>
   <body>
+    <!-- Início do cabeçalho -->
     <header>
-
       <div class="logo-container">
         <img src="./img/logo_baby_dog.png" alt="Logo BabyDog" class="logo">
-    </div>
-    <nav>
+      </div>
+      <nav>
         <div class="nav-container">
             <button id="menu-button">☰</button>
             <ul class="nav-menu">
@@ -27,87 +26,102 @@
                 <li><a href="#Estrutura">Estrutura</a></li>
                 <li><a href="#Trabalhe">Trabalhe Conosco</a></li>
 
-                <div class="social-icons">
-                  <a href="https://wa.me/5511966307046" target="_blank">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      x="10px"
-                      y="0px"
-                      width="100"
-                      height="100"
-                      viewBox="0 0 48 48"
-                    >
-                      <path
-                        fill="#fff"
-                        d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z"
-                      ></path>
-                      <path
-                        fill="#fff"
-                        d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z"
-                      ></path>
-                      <path
-                        fill="#cfd8dc"
-                        d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z"
-                      ></path>
-                      <path
-                        fill="#40c351"
-                        d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z"
-                      ></path>
-                      <path
-                        fill="#fff"
-                        fill-rule="evenodd"
-                        d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z"
-                        clip-rule="evenodd"
-                      ></path>
-                    </svg>
-                  </a>
-                  <a href="https://www.instagram.com/Babydog_cmv" target="_blank">
-                    <svg
-                      width="800px"
-                      height="800px"
-                      viewBox="0 0 3364.7 3364.7"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <defs>
-                        <radialGradient
-                          id="0"
-                          cx="217.76"
-                          cy="3290.99"
-                          r="4271.92"
-                          gradientUnits="userSpaceOnUse"
-                        >
-                          <stop offset=".09" stop-color="#fa8f21" />
-                          <stop offset=".78" stop-color="#d82d7e" />
-                        </radialGradient>
-                        <radialGradient
-                          id="1"
-                          cx="2330.61"
-                          cy="3182.95"
-                          r="3759.33"
-                          gradientUnits="userSpaceOnUse"
-                        >
-                          <stop offset=".64" stop-color="#8c3aaa" stop-opacity="0" />
-                          <stop offset="1" stop-color="#8c3aaa" />
-                        </radialGradient>
-                      </defs>
-                      <path
-                        d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9"
-                        fill="url(#0)"
-                      />
-                      <path
-                        d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9"
-                        fill="url(#1)"
-                      />
-                      <path
-                        d="M1269.25,1689.52c0-230.11,186.49-416.7,416.6-416.7s416.7,186.59,416.7,416.7-186.59,416.7-416.7,416.7-416.6-186.59-416.6-416.7m-225.26,0c0,354.5,287.36,641.86,641.86,641.86s641.86-287.36,641.86-641.86-287.36-641.86-641.86-641.86S1044,1335,1044,1689.52m1159.13-667.31a150,150,0,1,0,150.06-149.94h-0.06a150.07,150.07,0,0,0-150,149.94M1180.85,2707c-121.87-5.55-188.11-25.85-232.13-43-58.36-22.72-100-49.78-143.78-93.5s-70.88-85.32-93.5-143.68c-17.16-44-37.46-110.26-43-232.13-6.06-131.76-7.27-171.34-7.27-505.15s1.31-373.28,7.27-505.15c5.55-121.87,26-188,43-232.13,22.72-58.36,49.78-100,93.5-143.78s85.32-70.88,143.78-93.5c44-17.16,110.26-37.46,232.13-43,131.76-6.06,171.34-7.27,505-7.27S2059.13,666,2191,672c121.87,5.55,188,26,232.13,43,58.36,22.62,100,49.78,143.78,93.5s70.78,85.42,93.5,143.78c17.16,44,37.46,110.26,43,232.13,6.06,131.87,7.27,171.34,7.27,505.15s-1.21,373.28-7.27,505.15c-5.55,121.87-25.95,188.11-43,232.13-22.72,58.36-49.78,100-93.5,143.68s-85.42,70.78-143.78,93.5c-44,17.16-110.26,37.46-232.13,43-131.76,6.06-171.34,7.27-505.15,7.27s-373.28-1.21-505-7.27M1170.5,447.09c-133.07,6.06-224,27.16-303.41,58.06-82.19,31.91-151.86,74.72-221.43,144.18S533.39,788.47,501.48,870.76c-30.9,79.46-52,170.34-58.06,303.41-6.16,133.28-7.57,175.89-7.57,515.35s1.41,382.07,7.57,515.35c6.06,133.08,27.16,223.95,58.06,303.41,31.91,82.19,74.62,152,144.18,221.43s139.14,112.18,221.43,144.18c79.56,30.9,170.34,52,303.41,58.06,133.35,6.06,175.89,7.57,515.35,7.57s382.07-1.41,515.35-7.57c133.08-6.06,223.95-27.16,303.41-58.06,82.19-32,151.86-74.72,221.43-144.18s112.18-139.24,144.18-221.43c30.9-79.46,52.1-170.34,58.06-303.41,6.06-133.38,7.47-175.89,7.47-515.35s-1.41-382.07-7.47-515.35c-6.06-133.08-27.16-224-58.06-303.41-32-82.19-74.72-151.86-144.18-221.43S2586.8,537.06,2504.71,505.15c-79.56-30.9-170.44-52.1-303.41-58.06C2068,441,2025.41,439.52,1686,439.52s-382.1,1.41-515.45,7.57"
-                        fill="#ffffff"
-                      />
-                    </svg>
-                  </a>
-                </div>
-              </header>
+                  <!-- Início dos ícones sociais -->
+      <div class="social-icons">
+        <!-- Ícone do WhatsApp -->
+        <a href="https://wa.me/5511966307046" target="_blank">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="100"
+            height="100"
+            viewBox="0 0 48 48"
+          >
+            <path
+              fill="#fff"
+              d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z"
+            ></path>
+            <path
+              fill="#fff"
+              d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z"
+            ></path>
+            <path
+              fill="#cfd8dc"
+              d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z"
+            ></path>
+            <path
+              fill="#40c351"
+              d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z"
+            ></path>
+            <path
+              fill="#fff"
+              fill-rule="evenodd"
+              d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </a>
+        <!-- Fim do ícone do WhatsApp -->
+        
+        <!-- Ícone do Instagram -->
+        <a href="https://www.instagram.com/Babydog_cmv" target="_blank">
+          <svg
+            width="100"
+            height="100"
+            viewBox="0 0 3364.7 3364.7"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <radialGradient
+                id="0"
+                cx="217.76"
+                cy="3290.99"
+                r="4271.92"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset=".09" stop-color="#fa8f21" />
+                <stop offset=".78" stop-color="#d82d7e" />
+              </radialGradient>
+              <radialGradient
+                id="1"
+                cx="2330.61"
+                cy="3182.95"
+                r="3759.33"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset=".64" stop-color="#8c3aaa" stop-opacity="0" />
+                <stop offset="1" stop-color="#8c3aaa" />
+              </radialGradient>
+            </defs>
+            <path
+              d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9"
+              fill="url(#0)"
+            />
+            <path
+              d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9"
+              fill="url(#1)"
+            />
+            <path
+              d="M1269.25,1689.52c0-230.11,186.49-416.7,416.6-416.7s416.7,186.59,416.7,416.7-186.59,416.7-416.7,416.7-416.6-186.59-416.6-416.7m-225.26,0c0,354.5,287.36,641.86,641.86,641.86s641.86-287.36,641.86-641.86-287.36-641.86-641.86-641.86S1044,1335,1044,1689.52m1159.13-667.31a150,150,0,1,0,150.06-149.94h-0.06a150.07,150.07,0,0,0-150,149.94M1180.85,2707c-121.87-5.55-188.11-25.85-232.13-43-58.36-22.72-100-49.78-143.78-93.5s-70.88-85.32-93.5-143.68c-17.16-44-37.46-110.26-43-232.13-6.06-131.76-7.27-171.34-7.27-505.15s1.31-373.28,7.27-505.15c5.55-121.87,26-188,43-232.13,22.72-58.36,49.78-100,93.5-143.78s85.32-70.88,143.78-93.5c44-17.16,110.26-37.46,232.13-43,131.76-6.06,171.34-7.27,505-7.27S2059.13,666,2191,672c121.87,5.55,188,26,232.13,43,58.36,22.62,100,49.78,143.78,93.5s70.78,85.42,93.5,143.78c17.16,44,37.46,110.26,43,232.13,6.06,131.87,7.27,171.34,7.27,505.15s-1.21,373.28-7.27,505.15c-5.55,121.87-25.95,188.11-43,232.13-22.72,58.36-49.78,100-93.5,143.68s-85.42,70.78-143.78,93.5c-44,17.16-110.26,37.46-232.13,43-131.76,6.06-171.34,7.27-505.15,7.27s-373.28-1.21-505-7.27M1170.5,447.09c-133.07,6.06-224,27.16-303.41,58.06-82.19,31.91-151.86,74.72-221.43,144.18S533.39,788.47,501.48,870.76c-30.9,79.46-52,170.34-58.06,303.41-6.16,133.28-7.57,175.89-7.57,515.35s1.41,382.07,7.57,515.35c6.06,133.08,27.16,223.95,58.06,303.41,31.91,82.19,74.62,152,144.18,221.43s139.14,112.18,221.43,144.18c79.56,30.9,170.34,52,303.41,58.06,133.35,6.06,175.89,7.57,515.35,7.57s382.07-1.41,515.35-7.57c133.08-6.06,223.95-27.16,303.41-58.06,82.19-32,151.86-74.72,221.43-144.18s112.18-139.24,144.18-221.43c30.9-79.46,52.1-170.34,58.06-303.41,6.06-133.38,7.47-175.89,7.47-515.35s-1.41-382.07-7.47-515.35c-6.06-133.08-27.16-224-58.06-303.41-32-82.19-74.72-151.86-144.18-221.43S2586.8,537.06,2504.71,505.15c-79.56-30.9-170.44-52.1-303.41-58.06C2068,441,2025.41,439.52,1686,439.52s-382.1,1.41-515.45,7.57"
+              fill="#ffffff"
+            />
+          </svg>
+        </a>
+        <!-- Fim do ícone do Instagram -->
+      </div>
+      <!-- Fim dos ícones sociais -->
+            </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Fim do cabeçalho (Header) -->
+
+    <!-- Início da seção principal --(Main) -->
     <main>
+      <!-- Início da seção Home -->
       <section id="home"></section>
+      <!-- Início do banner de vídeo -->
       <section class="video-banner">
         <video autoplay loop muted playsinline>
           <source
@@ -126,6 +140,7 @@
             Agende um horário
           </h2>
 
+          <!-- Início do ícone do WhatsApp no banner -->
           <div class="whatsapp-icon">
             <a href="https://wa.me/5511966307046" target="_blank">
               <svg
@@ -161,25 +176,27 @@
               </svg>
             </a>
           </div>
-          <section id="servicos" style="margin-top: 190px"></section>
+          <!-- Fim do ícone do WhatsApp no banner -->
+        
         </div>
       </section>
-
+      <!-- Fim do banner de vídeo -->
+    <!-- Âncora para seção de serviços -->
+    <section id="servicos"></section>
+      <!-- Início da seção Título de Serviços -->
       <section id="section-1" class="container-Titulo">
         <div class="titulo-Texto animate__fadeInDown" id="animado-1">
           <h1>Agende Agora Mesmo Nossos Serviços Veterinários</h1>
           <p>Garanta a Saúde e Bem-Estar do Seu Melhor Amigo</p>
         </div>
       </section>
+      <!-- Fim da seção Título de Serviços -->
 
-      <section
-        id="section-2"
-        class="container-principal "
-     
-      >
+      <!-- Início da seção de Serviços Oferecidos -->
+      <section id="section-2" class="container-principal">
         <div class="container-pai animate__fadeInDown" id="animado-11">
-          <div class="titulo-filho  animate__fadeInDown" id="animado-2">
-            <img src="./img/nome_baby_dog.png" alt="" />
+          <div class="titulo-filho animate__fadeInDown" id="animado-2">
+            <img src="./img/nome_baby_dog.png" alt="Logo BabyDog" />
             <h3>Contamos com uma gama de especialistas:</h3>
             <ul>
               <li>Oncologista</li>
@@ -196,7 +213,7 @@
           </div>
           <div class="cards-pai">
             <div class="card-filho animate__fadeInDown" id="animado-3">
-              <img src="./img/nome_baby_dog.png" alt="" />
+              <img src="./img/nome_baby_dog.png" alt="Logo BabyDog" />
               <p>
                 Proteja seu animal de estimação com nosso serviço completo de
                 vacinação. Contamos tambem com microchipagem!
@@ -204,25 +221,25 @@
             </div>
 
             <div class="card-filho animate__fadeInDown" id="animado-4">
-              <img src="./img/nome_baby_dog.png" alt="" />
+              <img src="./img/nome_baby_dog.png" alt="Logo BabyDog" />
               <p class="">Contamos com especialista em animais Silvestres</p>
             </div>
             <div class="card-filho animate__fadeInDown" id="animado-5">
-              <img src="./img/nome_baby_dog.png" alt="" />
+              <img src="./img/nome_baby_dog.png" alt="Logo BabyDog" />
               <p>
                 Realizamos exames laboratoriais e exames de imagem. RaioX
                 /Ultrassom/Endoscopia/<br />Broncoscopia/<br />Ecocardiograma
               </p>
             </div>
             <div class="card-filho animate__fadeInDown" id="animado-6">
-              <img src="./img/nome_baby_dog.png" alt="" />
+              <img src="./img/nome_baby_dog.png" alt="Logo BabyDog" />
               <p>
                 Oferecemos serviços cirúrgicos completos para garantir a saúde e
                 bem-estar do seu animal de estimação
               </p>
             </div>
             <div class="card-filho animate__fadeInDown" id="animado-7">
-              <img src="./img/nome_baby_dog.png" alt="" />
+              <img src="./img/nome_baby_dog.png" alt="Logo BabyDog" />
               <p>
                 Atendimento emergencial disponível 24 horas para situações
                 críticas e urgentes
@@ -230,7 +247,7 @@
             </div>
 
             <div class="card-filho animate__fadeInDown" id="animado-8">
-              <img src="./img/nome_baby_dog.png" alt="" />
+              <img src="./img/nome_baby_dog.png" alt="Logo BabyDog" />
               <p>
                 Ótima estrutura de internação. Internação para cachorros
                 Internação para gato internação Infectocontagiosa
@@ -239,10 +256,13 @@
           </div>
         </div>
       </section>
+      <!-- Fim da seção de Serviços Oferecidos -->
 
+      <!-- Âncora para seção Sobre Nós -->
       <section id="Sobre"></section>
 
-      <section  id="section-3" class="sobre_nos" >
+      <!-- Início da seção Sobre Nós -->
+      <section id="section-3" class="sobre_nos">
         <div class="container_nós animate__fadeInDown" id="animado-9">
           <div class="text_nós">
             <h2>Sobre Nós</h2>
@@ -255,12 +275,12 @@
               informal entre Beatriz Fernandes e Beatriz Preti que
               juntas,resolveram encarar os desafios do empreendedorismo. Hoje,
               empresárias de sucesso no ramo, contam como encolheram o nome da
-              Clínica: “Baby foi a cachorrinha do meu pai,quando a Baby virou
+              Clínica: "Baby foi a cachorrinha do meu pai,quando a Baby virou
               estrelinha, desolado com o ocorrido, meu pai pediu que eu
-              homenageasse sua companheira.” Conta Beatriz Fernandes.“Quando a
+              homenageasse sua companheira." Conta Beatriz Fernandes."Quando a
               Bia contou que havia feito a promessa para seu pai, também já
               falecido, nós já sabíamos que a escolha estava feita. Baby não foi
-              por acaso!” Beatriz Preti,é graduada em Medicina Veterinária pela
+              por acaso!" Beatriz Preti,é graduada em Medicina Veterinária pela
               FAC - 2016,tem pós Graduação em Clínica Cirúrgica pela Faculdade
               Qualittas - 2023 e pós Graduação em Cirurgia Urológica Avançda
               pela Oncovet - 2023 Beatriz Fernandes é graduada em Medicina
@@ -271,148 +291,164 @@
             </h1>
           </div>
           <div class="container_03">
-            <img src="./img/foto_Bia.jpg" alt="" />
+            <img src="./img/foto_Bia.jpg" alt="Foto das proprietárias" />
           </div>
         </div>
       </section>
+      <!-- Fim da seção Sobre Nós -->
   
-      
+      <!-- Início da seção de imagens vazias -->
       <section class="container-img">
         <div class="container-pai-img">
-
         </div>
       </section>
+      <!-- Fim da seção de imagens vazias -->
+      
+      <!-- Âncora para seção Estrutura -->
       <section id="Estrutura">
+      <!-- Início da seção Estrutura -->
       <div class="full-scaner">
         <div class="container_estrutura">
           <div class="text_estrutura">
             <h2>Estrutura</h2>
           </div>
         </div>
+        <!-- Início do modal para visualização de imagens -->
         <div class="modal" id="modal">
           <span class="close" onclick="closeModal()">&times;</span>
           <img class="modal-content" id="modal-img" />
           <div id="caption"></div>
         </div>
+        <!-- Fim do modal para visualização de imagens -->
+        
+        <!-- Início da galeria de imagens da estrutura -->
         <div class="pai-estrutura">
           <div class="filho-estrutura">
-            <img src="./img/Centro_Cirurgico.jpg" alt="" />
+            <img src="./img/Centro_Cirurgico.jpg" alt="Centro Cirúrgico" />
             <h1>Centro Cirúrgico</h1>
           </div>
           <div class="filho-estrutura">
-            <img src="./img/Consultorio.jpg" alt="" />
+            <img src="./img/Consultorio.jpg" alt="Consultório" />
             <h1>Consultório</h1>
           </div>
           <div class="filho-estrutura">
-            <img src="./img/internacao.jpg" alt="" />
+            <img src="./img/internacao.jpg" alt="Internação" />
             <h1>Internação</h1>
           </div>
           <div class="filho-estrutura">
-            <img src="./img/Internacao_de_caes.jpg" alt="" />
+            <img src="./img/Internacao_de_caes.jpg" alt="Internação de Cães" />
             <h1>Internação de Cães</h1>
           </div>
           <div class="filho-estrutura">
-            <img src="./img/internacao_felinos.jpg" alt="" />
+            <img src="./img/internacao_felinos.jpg" alt="Internação Felinos" />
             <h1>Internação Felinos</h1>
           </div>
           <div class="filho-estrutura">
-            <img src="./img/internacao_infectocontagiosa.jpg" alt="" />
+            <img src="./img/internacao_infectocontagiosa.jpg" alt="Internação Infectocontagiosa" />
             <h1>Internação Infectocontagiosa</h1>
           </div>
           <div class="filho-estrutura">
-            <img src="./img/Recepcao.jpg" alt="" />
+            <img src="./img/Recepcao.jpg" alt="Recepção" />
             <h1>Recepção</h1>
           </div>
           <div class="filho-estrutura">
-            <img src="./img/Sala_de_imagem.jpg" alt="" />
+            <img src="./img/Sala_de_imagem.jpg" alt="Sala de Imagem" />
             <h1>Sala de Imagem</h1>
           </div>
           <div class="filho-estrutura">
-            <img src="./img/Sala_esterilizacao.jpg" alt="" />
+            <img src="./img/Sala_esterilizacao.jpg" alt="Sala Esterilização" />
             <h1>Sala Esterilização</h1>
           </div>
           <div class="filho-estrutura">
-            <img src="./img/Sala_paramentacao.jpg" alt="" />
+            <img src="./img/Sala_paramentacao.jpg" alt="Sala de Cirurgia" />
             <h1>Sala de Cirurgia</h1>
           </div>
         </div>
+        <!-- Fim da galeria de imagens da estrutura -->
       </div>
       </section>
+      <!-- Fim da seção Estrutura -->
 
-<section>
-      <section id="Trabalhe"></section>
-      <div class="container-formulario">
-        <div class="container-foto-vet">
-          <img src="./img/vet 2.png" alt="" />
+      <!-- Início da seção Trabalhe Conosco -->
+      <section>
+        <!-- Âncora para seção Trabalhe Conosco -->
+        <section id="Trabalhe"></section>
+        <div class="container-formulario">
+          <div class="container-foto-vet">
+            <img src="./img/vet 2.png" alt="Imagem de veterinário" />
+          </div>
+          <div class="form-container">
+            <h2>Trabalhe Conosco</h2>
+            <form action="#" method="post">
+              <div class="form-group">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required />
+              </div>
+              <div class="form-group">
+                <label for="whatsapp">WhatsApp com DDD:</label>
+                <input type="text" id="whatsapp" name="whatsapp" required />
+              </div>
+              <div class="form-group">
+                <label for="instagram">Instagram:</label>
+                <input type="text" id="instagram" name="instagram" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Endereço de Email:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="cargo">Cargo:</label>
+                <select id="cargo" name="cargo" required>
+                  <option value="veterinario">Veterinário</option>
+                  <option value="veterinario_especializacao">
+                    Veterinário com Especialização
+                  </option>
+                  <option value="enfermeiro">Enfermeiro</option>
+                  <option value="tecnico_veterinaria">
+                    Técnico em Veterinária
+                  </option>
+                  <option value="recepcionista">Recepcionista</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="experiencia">Qual sua experiência com a área?</label>
+                <textarea
+                  id="experiencia"
+                  name="experiencia"
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <label for="desafios"
+                  >O que considera os maiores desafios da profissão?</label
+                >
+                <textarea
+                  id="desafios"
+                  name="desafios"
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <div class="form-group radio-group">
+                <label>Já conhecia a clínica?</label>
+                <input type="radio" id="sim" name="conhecia_clinica" value="sim" required />
+                <label for="sim">Sim</label>
+                <input type="radio" id="nao" name="conhecia_clinica" value="nao" required />
+                <label for="nao">Não</label>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Enviar" />
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="form-container">
-          <h2>Trabalhe Conosco</h2>
-          <form action="#" method="post">
-            <div class="form-group">
-              <label for="nome">Nome Completo:</label>
-              <input type="text" id="nome" name="nome" required />
-            </div>
-            <div class="form-group">
-              <label for="whatsapp">WhatsApp com DDD:</label>
-              <input type="text" id="whatsapp" name="whatsapp" required />
-            </div>
-            <div class="form-group">
-              <label for="instagram">Instagram:</label>
-              <input type="text" id="instagram" name="instagram" required />
-            </div>
-            <div class="form-group">
-              <label for="email">Endereço de Email:</label>
-              <input type="email" id="email" name="email" required />
-            </div>
-            <div class="form-group">
-              <label for="cargo">Cargo:</label>
-              <select id="cargo" name="cargo" required>
-                <option value="veterinario">Veterinário</option>
-                <option value="veterinario_especializacao">
-                  Veterinário com Especialização
-                </option>
-                <option value="enfermeiro">Enfermeiro</option>
-                <option value="tecnico_veterinaria">
-                  Técnico em Veterinária
-                </option>
-                <option value="recepcionista">Recepcionista</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="experiencia">Qual sua experiência com a área?</label>
-              <textarea
-                id="experiencia"
-                name="experiencia"
-                rows="4"
-                required
-              ></textarea>
-            </div>
-            <div class="form-group">
-              <label for="desafios"
-                >O que considera os maiores desafios da profissão?</label
-              >
-              <textarea
-                id="desafios"
-                name="desafios"
-                rows="4"
-                required
-              ></textarea>
-            </div>
-            <div class="form-group radio-group">
-              <label>Já conhecia a clínica?</label>
-              <input type="radio" id="sim" name="conhecia_clinica" value="sim" required />
-              <label for="sim">Sim</label>
-              <input type="radio" id="nao" name="conhecia_clinica" value="nao" required />
-              <label for="nao">Não</label>
-            </div>
-            <div class="form-group">
-              <input type="submit" value="Enviar" />
-            </div>
-          </form>
-        </div>
-      </div>
+      </section>
+      <!-- Fim da seção Trabalhe Conosco -->
     </main>
-</section>
+    <!-- Fim da seção principal (Main) -->
+
+    <!-- Início do rodapé (Footer) -->
     <footer>
       <div class="container-pai-footer">
         <div class="logo-footer">
@@ -433,27 +469,32 @@
           <div class="copyrigtht">
             © 2025 BabyDog. Todos os direitos reservados.
           </div>
+          <!-- Início dos ícones sociais no rodapé -->
           <div class="social-links">
             <a
               href="https://wa.me/5511966307046"
               target="_blank"
               class="social-links"
             >
-              <img src="/img/whatsapp.png" alt="whatsapp" />
+              <img src="./img/whatsapp.png" alt="whatsapp" />
               <span>(11) 11966307046</span>
             </a>
             <a
-              href="https://www.instagram.com/your_profile"
+              href="https://www.instagram.com/Babydog_cmv"
               target="_blank"
               class="social-links"
             >
-              <img src="/img/instagram.png" alt="instagram" />
+              <img src="./img/instagram.png" alt="instagram" />
               <span>Instagram</span>
             </a>
           </div>
+          <!-- Fim dos ícones sociais no rodapé -->
         </div>
       </div>
     </footer>
+    <!-- Fim do rodapé (Footer) -->
+
+    <!-- Scripts -->
     <script src="./js/Galeria-Estrutura.js"></script>
     <script src="./js/animações.js"></script>
     <script src="./js/menu-haburger.js"></script>

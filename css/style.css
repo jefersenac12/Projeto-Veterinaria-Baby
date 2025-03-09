@@ -511,7 +511,7 @@ main {
   display: block;
 }
 section {
-  padding-top: 80px; 
+  padding-top: 0px; 
 
 }
 
@@ -723,9 +723,21 @@ section {
     justify-content: center;
     align-items: center;
   }
-  section {
-    padding-top: 143px; 
+
+ #servicos {
+    padding-top: 151px;
   }
+  #Sobre{
+    padding-top: 151px;
+  }
+  #Estrutura {
+    padding-top: 151px;
+  }
+  #Trabalhe {
+    padding-top: 151px;
+  }
+
+
 
   .nav-menu {
     position: absolute;
