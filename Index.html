@@ -432,11 +432,19 @@
               </div>
               <div class="form-group radio-group">
                 <label>Já conhecia a clínica?</label>
-                <input type="radio" id="sim" name="conhecia_clinica" value="sim" required />
-                <label for="sim">Sim</label>
-                <input type="radio" id="nao" name="conhecia_clinica" value="nao" required />
-                <label for="nao">Não</label>
+                <div class="radio-options">
+                  <div class="radio-item">
+                    <label for="sim">Sim</label>
+                    <input type="radio" id="sim" name="conhecia_clinica" value="sim" required />
+                  </div>
+                  <div class="radio-item">
+                    <label for="nao">Não</label>
+                    <input type="radio" id="nao" name="conhecia_clinica" value="nao" required />
+                  </div>
+                </div>
               </div>
+              
+
               <div class="form-group">
                 <input type="submit" value="Enviar" />
               </div>
