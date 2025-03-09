@@ -325,11 +325,6 @@ main {
   margin-bottom: 20px;
 }
 
-/* Sobre Nós */
-.sobre_nos {
-  /* padding: 100px; */
-}
-
 .container_nós {
   padding-top: 78px;
   padding-bottom: 50px;
@@ -515,16 +510,19 @@ main {
   font-weight: bold;
   display: block;
 }
+section {
+  padding-top: 80px; 
+
+}
 
 /* formulario  */
-
 .container-formulario {
-  /* padding: 50px; */
-  width: 80%;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
   justify-content: center;
-  justify-content: space-evenly;
-  margin-top: 130px;
+
 }
 .container-foto-vet {
   display: flex;
@@ -579,6 +577,7 @@ main {
   padding: 5px;
   border-radius: 4px;
 }
+
 .form-group input[type="submit"]:hover {
   background-color: rgb(111, 193, 207);
 }
@@ -660,8 +659,8 @@ main {
   color: white;
 }
 .social-links img {
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
 }
 
 .social-links span {
@@ -720,11 +719,13 @@ main {
   }
   header {
     display: flex;
-    width: 102%;
+    /* width: 102%; */
     justify-content: center;
     align-items: center;
   }
-
+  section {
+    padding-top: 143px; 
+  }
 
   .nav-menu {
     position: absolute;
@@ -768,6 +769,98 @@ main {
     /* width: 100%; */
     padding-right: 20px;
   }
+  .container-Titulo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .titulo-Texto {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+  .container-pai {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .titulo-filho {
+    margin-left: 0;
+  }
+  .text_nós {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .container_02 {
+    display: flex;
+  }
+  .container_02 h1 {
+    text-align: center;
+  }
+  .container_03 {
+    visibility: hidden;
+    display: none;
+  }
+  .container_03 img {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container_estrutura {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .container-pai-img {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+   .container-img {
+    width: 90%;
+    height: 500px;
+  }
+
+  .text_estrutura {
+    text-align: center;
+  }
+
+  .container-foto-vet img {
+    width: 100%;
+    height: 100%;
+  }
+  .container-foto-vet {
+    width: 100%;
+    margin: 0px auto;
+    padding-left: 50px;
+    order: 2;
+  }
+  .form-container {
+    width: 110%;
+     /* margin: 100vh auto 39px;  */
+    padding-left: 67px;
+    order: 1;
+  }
+  .form-container h2 {
+    text-align: center;
+  }
+  .form-container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    order: 1;
+  }
+  
+ 
   .container-pai-footer{
     width: 100%;
     align-items: center;
@@ -775,7 +868,7 @@ main {
 
   }
   .video-banner {
-    height: 80vh;
+    height: 60vh;
   }
 
   .content-overlay {
@@ -783,8 +876,9 @@ main {
     transform: translateX(-50%);
     text-align: center;
     width: 90%;
-    top: 40%;
+    /* top: 40%; */
   }
+
   .content-overlay h1 {
     font-size: 2rem;
     line-height: 1.2;
@@ -837,6 +931,9 @@ main {
     height: auto;
     padding: 20px;
   }
+  .full-scaner {
+    height: auto;
+  }
 
   /* Sobre Nós */
   .container_nós {
@@ -870,25 +967,68 @@ main {
     flex: 0 0 100%;
     max-width: 300px;
   }
-  .container-Titulo {
+
+  /* Formulário */
+  .container-formulario {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-  .titulo-Texto {
-    text-align: center;
     width: 100%;
+    padding: 0 15px;
+  }
+
+  .container-foto-vet {
     margin: 0;
+    order: 2;
+    width: 100%;
     padding: 0;
-    font-size: 20px;
+  }
+
+  .container-foto-vet img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+  /* Footer */
+  .container-pai-footer {
+    padding: 30px 15px;
+  }
+
+  .Direitos-footer {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .copyrigtht {
+    font-size: 1rem;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  /* Modal */
+  .modal-content {
+    max-width: 95%;
+    width: 100%;
+  }
+
+  .cta-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .container-pai-img {
+    height: 400px;
+    width: 95%;
   }
   .container-img {
     width: 100%;
     padding: 0 15px;
     margin: 30px 0;
   }
- 
+
   .container-pai-img {
     width: 100%;
     height: 400px;
@@ -901,100 +1041,9 @@ main {
   .container-pai-img {
     background-attachment: scroll;
   }
- 
-
   .container-pai-img img {
     max-width: 100%;
     height: auto;
-  }
-  .container-pai {
-    flex-direction: column;
-    gap: 50px;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-  }
-  .titulo-filho {
-    margin-left: 0;
-  }
-  .text_nós {
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  .container_02 {
-    display: flex;
-  }
-  .container_02 h1 {
-    text-align: center;
-    padding: 4px 4px 4px 4px;
-  }
-  .container-pai-img img{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-  .container_03 {
-    visibility: hidden;
-    display: none;
-  }
-  .container_03 img {
-    margin: 0;
-    padding: 0;
-  }
-
-  .container_estrutura {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-  }
-  .container-pai-img {
-    margin: 0px auto;
-    object-fit: cover;
-  
-
-  }
-  .text_estrutura {
-    text-align: center;
-  }
-
-  .container-formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* margin: 0;
-    padding: 0; */
-  }
-  .container-foto-vet img {
-    width: 130%;
-    object-fit: cover;
-    height: 100%;
-  }
-  .container-foto-vet {
-    width: 100%;
-    margin: 0px auto;
-    /* padding-left: 50px; */
-    order: 2;
-  }
-  .form-container {
-    margin-top: 50px;
-    width: 90%;
-    margin: 198vh auto 39px;
-    padding-left: 67px;
-    display: flex;
-    order: 1;
-    flex-direction: column;
-  }
-  .container-pai-footer{
-    width: 100%;
-
-
-
-    align-items: center;
-    justify-content: space-around;
-
   }
   .social-links span {
     display: none;
