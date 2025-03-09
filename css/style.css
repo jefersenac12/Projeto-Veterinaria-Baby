@@ -885,7 +885,7 @@ section {
     transform: translateX(-50%);
     text-align: center;
     width: 90%;
-    /* top: 40%; */
+    top: 40%;
   }
 
   .content-overlay h1 {
