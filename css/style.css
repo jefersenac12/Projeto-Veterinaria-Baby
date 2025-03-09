@@ -614,6 +614,7 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 100px;
   gap: 10px;
   margin-bottom: 5px;
 }
@@ -937,7 +938,7 @@ main {
      Banner  Vídeo
   ==================== */
   .video-banner {
-    height: 80vh;
+    height: 87vh;
   }
 
   .content-overlay {
@@ -1069,7 +1070,7 @@ main {
      Footer
   ==================== */
   .container-pai-footer {
-    padding: 30px 15px;
+    padding: 5px 15px;
   }
 
   .Direitos-footer {
