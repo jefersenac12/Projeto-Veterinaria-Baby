@@ -10,7 +10,6 @@ O *BabyDog Centro Médico Veterinário* é um site institucional desenvolvido pa
 
 ### 1. *Header (Cabeçalho)*
 - *Logo e Navegação*: Menu de navegação com links para as seções do site.
-- *Botão CTA*: Botão de chamada para ação (ex: "Agende uma consulta").
 - *Ícones Sociais*: Links para WhatsApp e Instagram.
 - *Menu Mobile*: Menu responsivo que se adapta a dispositivos móveis.
 
