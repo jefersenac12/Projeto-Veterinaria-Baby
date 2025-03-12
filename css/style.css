@@ -656,6 +656,7 @@ main {
 }
 
 .endereco-footer {
+  display: flex;
   align-items: flex-end;
   justify-content: flex-end;
   gap: 8px;
@@ -855,7 +856,9 @@ main {
   }
 
   .container_02 h1 {
+    display: flex;
     text-align: center;
+    justify-content: center;
   }
 
   .container_03 {
@@ -1077,6 +1080,10 @@ main {
     flex-direction: column;
     gap: 15px;
     text-align: center;
+  }
+  .endereco-footer {
+    display: block;
+    align-items: center;
   }
 
   .copyrigtht {
