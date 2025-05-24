@@ -865,9 +865,9 @@ main {
   ==================== */
   .text_nós {
     text-align: center;
-    width: 100%;
+    width: 94%;
     margin: 0;
-    padding: 0;
+  
   }
 
   .container_02 {
@@ -960,7 +960,7 @@ main {
      Banner  Vídeo
   ==================== */
   .video-banner {
-    height: 91vh;
+    height: 100vh;
   }
 
   .content-overlay {
