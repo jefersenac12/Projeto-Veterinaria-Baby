@@ -1391,7 +1391,7 @@ main {
        Banner  Vídeo
     ==================== */
     .video-banner {
-      height: 120vh;
+      height: 80vh;
     }
   
     .content-overlay {
@@ -1399,7 +1399,7 @@ main {
       transform: translateX(-50%);
       text-align: center;
       width: 90%;
-      top: 180px;
+      top: 165px;
     }
   
     .content-overlay h1 {
