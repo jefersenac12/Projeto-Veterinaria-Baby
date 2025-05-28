@@ -739,9 +739,9 @@ main {
 /* =================================================== */
 
 /* =================================================== */
-/* Media Queries Celulares */
+/* Media Queries tablets */
 /* =================================================== */
-@media (min-width: 768px) and(max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   #menu-button {
     font-family: "DM Sans", serif;
     font-weight: 600;
@@ -826,7 +826,6 @@ main {
 
   .nav-menu a {
     text-align: left;
-    display: block;
     padding-right: 20px;
   }
 
@@ -1254,7 +1253,6 @@ main {
   
     .nav-menu a {
       text-align: left;
-      display: block;
       padding-right: 20px;
     }
   
@@ -1595,4 +1593,8 @@ main {
       margin-left: 10px;
     }
   }
+/* ==============================================
+   RESPONSIVIDADE PARA notebooks (até 930px)
+=============================================== */
+@media (max-width: 930px) {
 }
