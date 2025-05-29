@@ -1186,6 +1186,445 @@ main {
   }
 }
 
+/* =================================================== */
+/*  sansung 14 Pro Max*/
+/* =================================================== */
+@media (min-width: 360px) and (max-width: 390px) {
+  #menu-button {
+    font-family: "DM Sans", serif;
+    font-weight: 600;
+    color: #005d7f;
+    display: block;
+    position: absolute;
+    top: 20px;
+    bottom: 11px;
+    right: 19px;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    bottom: 11px;
+  }
+
+  .logo {
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  body {
+    width: 100%;
+    justify-content: center;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Servicos {
+    padding-top: 168px;
+  }
+  #Sobre {
+    padding-top: 168px;
+  }
+  #Estrutura {
+    padding-top: 168px;
+  }
+  #Trabalhe{
+    padding-top: 168px;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #e6f2f3;
+    color: #fff;
+    flex-direction: column;
+    gap: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: left;
+    padding-top: 5px;
+  }
+
+  .nav-menu.active {
+    max-height: 500px;
+  }
+
+  .nav-menu li {
+    padding: 15px 0;
+    margin: 0;
+  }
+
+  .nav-menu a {
+    text-align: left;
+    padding-right: 20px;
+  }
+
+  /* ====================
+     SEÇÃO DE TÍTULO 
+  ==================== */
+  .container-Titulo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .titulo-Texto {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  /* ====================
+     CARDS DE SERVIÇOS 
+  ==================== */
+  .container-pai {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .titulo-filho {
+    margin-left: 0;
+  }
+
+  /* ====================
+     SOBRE NÓS 
+  ==================== */
+  .text_nós {
+    text-align: center;
+    width: 94%;
+    margin: 0;
+  
+  }
+
+  .container_02 {
+    display: flex;
+  }
+
+  .container_02 h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .container_03 {
+    visibility: hidden;
+    display: none;
+  }
+
+  .container_03 img {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* ====================
+     Estrutura 
+  ==================== */
+  .container_estrutura {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .container-pai-img {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-img {
+    width: 90%;
+    height: 500px;
+  }
+
+  .text_estrutura {
+    text-align: center;
+  }
+
+  /* ====================
+     Formulario 
+  ==================== */
+  .container-foto-vet img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-foto-vet {
+    width: 100%;
+    margin: 0px auto;
+    padding-left: 50px;
+    order: 2;
+  }
+
+  .form-container {
+    width: 110%;
+    padding-left: 67px;
+    order: 1;
+  }
+
+  .form-container h2 {
+    text-align: center;
+  }
+
+  .form-container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    order: 1;
+  }
+
+  /* ====================
+     Footer
+  ==================== */
+  .container-pai-footer {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  /* ====================
+     Banner  Vídeo
+  ==================== */
+  .video-banner {
+    height: 78vh;
+  }
+
+  .content-overlay {
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 90%;
+    /* top: 12rem; */
+  }
+
+  .content-overlay h1 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .content-overlay h2 {
+    font-size: 22px;
+  }
+  .content-overlay .logo-imagem-video {
+    width: 140px;
+  }
+
+  .content-overlay p {
+    font-size: 1.2rem;
+  }
+
+  .content-overlay .logo-img {
+    width: 80px;
+    height: 80px;
+    top: -50px;
+  }
+
+  /* ====================
+     Seçoes  Principais 
+  ==================== */
+  .container-Titulo {
+    padding: 30px 15px;
+  }
+
+  .titulo-Texto {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .titulo-Texto h1 {
+    font-size: 1.8rem;
+  }
+
+  /* ====================
+     Cards de Servicos
+  ==================== */
+  .container-pai {
+    margin: 0;
+    padding: 15px;
+    gap: 30px;
+  }
+
+  .titulo-filho {
+    min-width: auto;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .cards-pai {
+    padding: 15px;
+  }
+
+  .card-filho {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .full-scaner {
+    height: auto;
+  }
+
+  /* ====================
+     Sobre Nós
+  ==================== */
+  .container_nós {
+    padding: 30px 15px;
+  }
+
+  .text_nós {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .container_02 {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  /* ====================
+     Estrutura 
+  ==================== */
+  .container_estrutura {
+    margin: 50px 0;
+    padding: 0 15px;
+  }
+
+  .text_estrutura {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .filho-estrutura {
+    flex: 0 0 100%;
+    max-width: 300px;
+  }
+
+  /* ====================
+     Formulário 
+  ==================== */
+  .container-formulario {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .container-foto-vet {
+    margin: 0;
+    order: 2;
+    width: 100%;
+    padding: 0;
+  }
+
+  .container-foto-vet img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ====================
+     Footer
+  ==================== */
+  .container-pai-footer {
+    padding: 5px 15px;
+  }
+
+  .Direitos-footer {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  .endereco-footer {
+    display: block;
+    align-items: center;
+  }
+
+  .copyrigtht {
+    font-size: 1rem;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  /* ====================
+     Modal
+  ==================== */
+  .modal-content {
+    max-width: 95%;
+    width: 100%;
+  }
+
+  .cta-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .container-pai-img {
+    height: 400px;
+    width: 95%;
+  }
+
+  .container-img {
+    width: 100%;
+    padding: 0 15px;
+    margin: 30px 0;
+  }
+
+  .container-pai-img {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .container-pai-img {
+    background-attachment: scroll;
+  }
+
+  .container-pai-img img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .social-links span {
+    display: none;
+  }
+
+  .social-links img {
+    margin-left: 10px;
+  }
+  .social-icons img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
 
 /* =================================================== */
 /*  iPhone 14 Pro Max*/
