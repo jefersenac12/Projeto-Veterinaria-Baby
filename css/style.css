@@ -90,7 +90,7 @@ header {
   cursor: pointer;
   z-index: 3;
 }
-.social-icons img{
+.social-icons img {
   width: 30px;
   height: 30px;
   cursor: pointer;
@@ -169,7 +169,7 @@ header {
   margin-bottom: 10px;
 }
 
-.content-overlay .logo-imagem-video{
+.content-overlay .logo-imagem-video {
   width: 100px;
 }
 
@@ -432,10 +432,6 @@ main {
   padding: 0;
 }
 
-.full-scaner {
-  height: 75vh;
-}
-
 .container-pai-img {
   display: flex;
   justify-content: center;
@@ -452,6 +448,10 @@ main {
 /* =================================================== */
 /* Estrutura */
 /* =================================================== */
+
+.full-scaner {
+  height: 75vh;
+}
 .container_estrutura {
   margin: 205px 0 98px;
   display: flex;
@@ -512,7 +512,7 @@ main {
 }
 
 /* =================================================== */
-/* Modal De Imangens */
+/* Modal De Imagens */
 /* =================================================== */
 .modal {
   display: none;
@@ -750,9 +750,12 @@ main {
 /* =================================================== */
 
 /* =================================================== */
-/*  IPhones 5 ou menor */
+
+/* Dispositivos móveis pequenos (até 375px) */
+
 /* =================================================== */
-@media (min-width: 320px) and (max-width: 375px) {
+
+@media (min-width: 0px) and (max-width: 375px) {
   #menu-button {
     font-family: "DM Sans", serif;
     font-weight: 600;
@@ -1180,17 +1183,15 @@ main {
   .social-links img {
     margin-left: 10px;
   }
-  .social-icons img {
-    width: 25px;
-    height: 25px;
-  }
 }
 
+/* =================================================== */
+
+/* Dispositivos móveis médios (376px–430px) */
 
 /* =================================================== */
-/*  iPhone 14 Pro Max*/
-/* =================================================== */
-@media (min-width: 390px) and (max-width: 430px) {
+
+@media (min-width: 376px) and (max-width: 430px) {
   #menu-button {
     font-family: "DM Sans", serif;
     font-weight: 600;
@@ -1411,7 +1412,7 @@ main {
      Banner  Vídeo
   ==================== */
   .video-banner {
-    height: 78vh;
+    height: 80vh;
   }
 
   .content-overlay {
@@ -1419,7 +1420,7 @@ main {
     transform: translateX(-50%);
     text-align: center;
     width: 90%;
-    /* top: 12rem; */
+    top: 12rem;
   }
 
   .content-overlay h1 {
@@ -1427,10 +1428,8 @@ main {
     line-height: 1.2;
   }
   .content-overlay h2 {
-    font-size: 22px;
-  }
-  .content-overlay .logo-imagem-video {
-    width: 140px;
+    font-size: 19px;
+
   }
 
   .content-overlay p {
@@ -1620,17 +1619,15 @@ main {
   .social-links img {
     margin-left: 10px;
   }
-  .social-icons img {
-    width: 25px;
-    height: 25px;
-  }
-
 }
 
 /* =================================================== */
-/*  sansung 14 Pro Max*/
+
+/* Telas grandes de smartphones (431px–769px) */
+
 /* =================================================== */
-@media (min-width: 769px) {
+
+@media (min-width: 431px) and (max-width: 769px) {
   #menu-button {
     font-family: "DM Sans", serif;
     font-weight: 600;
@@ -1851,7 +1848,7 @@ main {
      Banner  Vídeo
   ==================== */
   .video-banner {
-    height: 78vh;
+    height: 80vh;
   }
 
   .content-overlay {
@@ -1859,7 +1856,7 @@ main {
     transform: translateX(-50%);
     text-align: center;
     width: 90%;
-    /* top: 12rem; */
+    top: 12rem;
   }
 
   .content-overlay h1 {
@@ -1867,10 +1864,8 @@ main {
     line-height: 1.2;
   }
   .content-overlay h2 {
-    font-size: 22px;
-  }
-  .content-overlay .logo-imagem-video {
-    width: 140px;
+    font-size: 19px;
+
   }
 
   .content-overlay p {
@@ -2060,16 +2055,15 @@ main {
   .social-links img {
     margin-left: 10px;
   }
-  .social-icons img {
-    width: 25px;
-    height: 25px;
-  }
 }
 
 /* =================================================== */
-/*  Celulares maiores (até 425px – ex: iPhone XR, Galaxy S) */
+
+/* Tablets (770px–1024px) */
+
 /* =================================================== */
-@media (min-width: 414px) and (max-width: 896px) {
+
+@media (min-width: 770px) and (max-width: 1024px) {
   #menu-button {
     font-family: "DM Sans", serif;
     font-weight: 600;
@@ -2290,7 +2284,7 @@ main {
      Banner  Vídeo
   ==================== */
   .video-banner {
-    height: 62vh;
+    height: 80vh;
   }
 
   .content-overlay {
@@ -2298,7 +2292,7 @@ main {
     transform: translateX(-50%);
     text-align: center;
     width: 90%;
-    /* top: 12rem; */
+    top: 12rem;
   }
 
   .content-overlay h1 {
@@ -2306,10 +2300,8 @@ main {
     line-height: 1.2;
   }
   .content-overlay h2 {
-    font-size: 22px;
-  }
-  .content-overlay .logo-imagem-video {
-    width: 140px;
+    font-size: 19px;
+
   }
 
   .content-overlay p {
@@ -2338,32 +2330,6 @@ main {
     font-size: 1.8rem;
   }
 
-  /* ====================
-     Cards de Servicos
-  ==================== */
-  .container-pai {
-    margin: 0;
-    padding: 15px;
-    gap: 30px;
-  }
-
-  .titulo-filho {
-    min-width: auto;
-    width: 100%;
-    margin: 0;
-    padding: 20px;
-  }
-
-  .cards-pai {
-    padding: 15px;
-  }
-
-  .card-filho {
-    width: 100%;
-    height: auto;
-    padding: 20px;
-  }
-
   .full-scaner {
     height: auto;
   }
@@ -2389,6 +2355,10 @@ main {
   /* ====================
      Estrutura 
   ==================== */
+
+  .full-scaner {
+    height: auto;
+  }
   .container_estrutura {
     margin: 50px 0;
     padding: 0 15px;
@@ -2499,9 +2469,14 @@ main {
   .social-links img {
     margin-left: 10px;
   }
-  .social-icons img {
-    width: 25px;
-    height: 25px;
-  }
 }
 
+/* =================================================== */
+
+/* Desktops (1025px e acima) */
+
+/* =================================================== */
+
+@media (min-width: 1025px) {
+  /* Estilos para desktops */
+}
