@@ -824,7 +824,7 @@ main {
      Banner  Vídeo
   ==================== */
   .video-banner {
-    height: 80vh;
+    height: 72vh;
   }
 
   .content-overlay {
@@ -1072,8 +1072,322 @@ main {
 /* =================================================== */
 
  @media (min-width: 376px) and (max-width: 430px) {
+  #menu-button {
+    font-family: "DM Sans", serif;
+    font-weight: 600;
+    color: #005d7f;
+    display: block;
+    position: absolute;
+    top: 20px;
+    bottom: 11px;
+    right: 19px;
+  }
 
- }
+  .logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  body {
+    width: 100%;
+    justify-content: center;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+   #Servicos {
+    padding-top: 160px;
+  } 
+  #Sobre {
+    padding-top: 168px;
+  }
+  #Estrutura {
+    padding-top: 168px;
+  }
+  #Trabalhe{
+    padding-top: 168px;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #e6f2f3;
+    color: #fff;
+    flex-direction: column;
+    gap: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: left;
+    padding-top: 5px;
+  }
+
+  .nav-menu.active {
+    max-height: 500px;
+  }
+
+  .nav-menu li {
+    padding: 15px 0;
+    margin: 0;
+  }
+
+  .nav-menu a {
+    text-align: left;
+    padding-right: 20px;
+  }
+
+  /* ====================
+     Banner  Vídeo
+  ==================== */
+  .video-banner {
+    height: 73vh;
+  }
+
+  .content-overlay {
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 90%;
+  }
+
+  .content-overlay h1 {
+    font-size: 28px;
+    line-height: 1.2;
+    color: #005d7f;
+  }
+  .content-overlay h2 {
+    font-size: 22px;
+  }
+
+  .content-overlay p {
+    font-size: 1.2rem;
+  }
+
+  .content-overlay .logo-img {
+    width: 80px;
+    height: 80px;
+    top: -50px;
+  }
+
+  /* ====================
+     Seçoes  Principais 
+  ==================== */
+  .container-Titulo {
+    padding: 30px 15px;
+  }
+
+  .titulo-Texto {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .titulo-Texto h1 {
+    font-size: 1.8rem;
+  }
+  .titulo-Texto p {
+    font-size: 1rem;
+  }
+
+  /* ====================
+     CARDS DE SERVIÇOS 
+  ==================== */
+  .container-pai {
+    flex-direction: column;
+  }
+
+  .container-pai {
+    margin: 0;
+    padding: 15px;
+    gap: 30px;
+  }
+
+  .titulo-filho {
+    margin: 0;
+    padding: 20px;
+  }
+
+  .cards-pai {
+    padding: 15px;
+  }
+
+  .card-filho {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  /* ====================
+     SOBRE NÓS 
+  ==================== */
+  .text_nós {
+    width: 94%;
+    margin: 0;
+  
+  }
+  .container_02 {
+    display: flex;
+  }
+
+  .container_nós {
+    padding: 30px 15px;
+  }
+
+  .container_02 {
+    width: 100%;
+    padding: 0 2px;
+  }
+
+  .container_02 h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .container {
+    flex-direction: column; 
+    align-items: center; 
+  
+  }
+
+  .container_03 {
+    margin-right: 0; 
+  }
+
+  .container_03 img {
+    padding: 0px 8px 0px 8px !important;
+    width: 100%;
+    height: auto; 
+    
+  }
+
+    /* ====================
+     Banner Imagem cachorro
+  ==================== */
+
+  .container-pai-img {
+    height: 400px;
+    width: 97%;
+  }
+
+  .container-pai-img {
+    background-attachment: scroll;
+  }
+
+  /* ====================
+     Estrutura 
+  ==================== */
+
+  .full-scaner {
+    height: auto;
+  }
+
+  .container_estrutura {
+    margin: 50px 0;
+    padding: 0 15px;
+  }
+
+  .text_estrutura {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .filho-estrutura {
+    flex: 0 0 100%;
+    max-width: 300px;
+  }
+
+   /* ====================
+     Modal
+  ==================== */
+  .modal-content {
+    max-width: 95%;
+    width: 100%;
+  }
+  .social-links span {
+    display: none;
+  }
+
+  .social-links img {
+    margin-left: 10px;
+  }
+
+  /* ====================
+     Formulario 
+  ==================== */
+
+  .container-formulario {
+    flex-direction: column;
+    padding: 0 15px;
+  }
+
+  .container-foto-vet {
+    width: 100%;
+    margin: 0px auto;
+    padding-left: 50px;
+    order: 2;
+  }
+
+  .form-container {
+    width: 110%;
+    padding-left: 67px;
+    order: 1;
+  }
+
+  .form-container h2 {
+    text-align: center;
+  }
+
+  .form-container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    order: 1;
+  }
+  .container-foto-vet {
+    padding: 0;
+  }
+
+  .container-foto-vet img {
+    width: 100%;
+    height: auto;
+  }
+  /* ====================
+     Footer
+  ==================== */
+  .container-pai-footer {
+    padding: 5px 15px;
+  }
+
+  .Direitos-footer {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  .endereco-footer {
+    display: block;
+    align-items: center;
+  }
+
+  .copyrigtht {
+    font-size: 1rem;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}
 
 /* =================================================== */
 
@@ -1082,7 +1396,317 @@ main {
 /* =================================================== */
 
 @media (min-width: 431px) and (max-width: 769px) {
+  #menu-button {
+    font-family: "DM Sans", serif;
+    font-weight: 600;
+    color: #005d7f;
+    display: block;
+    position: absolute;
+    top: 20px;
+    bottom: 11px;
+    right: 19px;
+  }
 
+  .logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  body {
+    width: 100%;
+    justify-content: center;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+   #Servicos {
+    padding-top: 160px;
+  } 
+  #Sobre {
+    padding-top: 168px;
+  }
+  #Estrutura {
+    padding-top: 168px;
+  }
+  #Trabalhe{
+    padding-top: 168px;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #e6f2f3;
+    color: #fff;
+    flex-direction: column;
+    gap: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: left;
+    padding-top: 5px;
+  }
+
+  .nav-menu.active {
+    max-height: 500px;
+  }
+
+  .nav-menu li {
+    padding: 15px 0;
+    margin: 0;
+  }
+
+  .nav-menu a {
+    text-align: left;
+    padding-right: 20px;
+  }
+
+  /* ====================
+     Banner  Vídeo
+  ==================== */
+
+  .video-banner {
+    height: 73vh;
+  }
+
+  .content-overlay {
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 90%;
+    top: 23rem;
+  }
+
+  .content-overlay h1 {
+    font-size: 28px;
+    line-height: 1.2;
+    color: #005d7f;
+  }
+  .content-overlay h2 {
+    font-size: 22px;
+  }
+
+  .content-overlay p {
+    font-size: 1.2rem;
+  }
+
+  .content-overlay .logo-img {
+    width: 80px;
+    height: 80px;
+    top: -50px;
+  }
+
+  /* ====================
+     Seçoes  Principais 
+  ==================== */
+  .container-Titulo {
+    padding: 30px 15px;
+  }
+
+  .titulo-Texto {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .titulo-Texto h1 {
+    font-size: 1.8rem;
+  }
+
+  .titulo-Texto p {
+    font-size: 1rem;
+  }
+
+  /* ====================
+     CARDS DE SERVIÇOS 
+  ==================== */
+  .container-pai {
+    flex-direction: column;
+  }
+
+  .container-pai {
+    margin: 0;
+    padding: 15px;
+    gap: 30px;
+  }
+
+  .titulo-filho {
+    margin: 0;
+    padding: 20px;
+  }
+
+  .cards-pai {
+    padding: 15px;
+  }
+
+  .card-filho {
+    height: auto;
+    padding: 20px;
+  }
+
+  /* ====================
+     SOBRE NÓS 
+  ==================== */
+  .text_nós {
+    width: 94%;
+    margin: 0;
+  
+  }
+  .container_02 {
+    display: flex;
+  }
+
+  .container_nós {
+    padding: 30px 15px;
+  }
+
+  .container_02 {
+    width: 100%;
+    padding: 0 2px;
+  }
+
+  .container_02 h1 {
+    text-align: center;
+    font-size: 31px;
+    margin-bottom: 100px;
+  }
+
+  .container {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .container_03 {
+    margin-right: 0; 
+  }
+
+  .container_03 img {
+    width: 100%;
+    padding: 0px 8px 0px 8px !important;
+    height: auto; 
+  }
+
+    /* ====================
+     Banner Imagem cachorro
+  ==================== */
+
+  .container-pai-img {
+    height: 400px;
+    width: 97%;
+  }
+
+  .container-pai-img {
+    background-attachment: scroll;
+  }
+
+  /* ====================
+     Estrutura 
+  ==================== */
+
+  .full-scaner {
+    height: auto;
+  }
+
+  .container_estrutura {
+    margin: 50px 0;
+    padding: 0 15px;
+  }
+
+  .text_estrutura {
+    width: 100%;
+    padding: 20px;
+  }
+
+   /* ====================
+     Modal
+  ==================== */
+  .modal-content {
+    max-width: 95%;
+    width: 100%;
+  }
+  .social-links span {
+    display: none;
+  }
+
+  .social-links img {
+    margin-left: 10px;
+  }
+
+  /* ====================
+     Formulario 
+  ==================== */
+
+  .container-formulario {
+    flex-direction: column;
+    padding: 0 15px;
+  }
+
+  .container-foto-vet {
+    width: 100%;
+    margin: 0px auto;
+    padding-left: 50px;
+    order: 2;
+  }
+
+  .form-container {
+    width: 110%;
+    padding-left: 67px;
+    order: 1;
+  }
+
+  .form-container h2 {
+    text-align: center;
+  }
+
+  .form-container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    order: 1;
+  }
+  .container-foto-vet {
+    padding: 0;
+  }
+
+  .container-foto-vet img {
+    width: 100%;
+    height: auto;
+  }
+  /* ====================
+     Footer
+  ==================== */
+  .container-pai-footer {
+    padding: 5px 15px;
+  }
+
+  .Direitos-footer {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  .endereco-footer {
+    display: block;
+    align-items: center;
+  }
+
+  .copyrigtht {
+    font-size: 1rem;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
 }
 
 /* =================================================== */
@@ -1092,5 +1716,317 @@ main {
 /* =================================================== */
 
  @media (min-width: 770px) and (max-width: 1024px) {
+  #menu-button {
+    font-family: "DM Sans", serif;
+    font-weight: 600;
+    color: #005d7f;
+    display: block;
+    position: absolute;
+    top: 20px;
+    bottom: 11px;
+    right: 19px;
+  }
+
+  .logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  body {
+    width: 100%;
+    justify-content: center;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+   #Servicos {
+    padding-top: 160px;
+  } 
+  #Sobre {
+    padding-top: 168px;
+  }
+  #Estrutura {
+    padding-top: 168px;
+  }
+  #Trabalhe{
+    padding-top: 168px;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #e6f2f3;
+    color: #fff;
+    flex-direction: column;
+    gap: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: left;
+    padding-top: 5px;
+  }
+
+  .nav-menu.active {
+    max-height: 500px;
+  }
+
+  .nav-menu li {
+    padding: 15px 0;
+    margin: 0;
+  }
+
+  .nav-menu a {
+    text-align: left;
+    padding-right: 20px;
+  }
+
+  /* ====================
+     Banner  Vídeo
+  ==================== */
+  .video-banner {
+    height: 82vh;
+  }
+
+  .content-overlay {
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 90%;
+  }
+
+  .content-overlay h1 {
+    line-height: 1.2;
+    color: #005d7f;
+  }
+  .content-overlay h2 {
+    font-size: 22px;
+  }
+
+  .content-overlay p {
+    font-size: 1.2rem;
+  }
+
+  .content-overlay .logo-img {
+    width: 80px;
+    height: 80px;
+    top: -50px;
+  }
+
+  /* ====================
+     Seçoes  Principais 
+  ==================== */
+  .container-Titulo {
+    padding: 30px 15px;
+  }
+
+  .titulo-Texto {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .titulo-Texto h1 {
+    font-size: 1.8rem;
+  }
+  .titulo-Texto p {
+    font-size: 1rem;
+  }
+
+  /* ====================
+     CARDS DE SERVIÇOS 
+  ==================== */
+  .container-pai {
+    flex-direction: column;
+  }
+
+  .container-pai {
+    margin: 0;
+    padding: 15px;
+    gap: 30px;
+  }
+
+  .titulo-filho {
+    margin: 0;
+    padding: 20px;
+  }
+
+  .cards-pai {
+    padding: 15px;
+  }
+
+  .card-filho {
+    height: auto;
+    padding: 20px;
+  }
+
+  /* ====================
+     SOBRE NÓS 
+  ==================== */
+  .text_nós {
+    width: 94%;
+    margin: 0;
+  
+  }
+  .container_02 {
+    display: flex;
+  }
+
+  .container_nós {
+    padding: 30px 15px;
+  }
+
+  .container_02 {
+    width: 100%;
+    padding: 0 2px;
+  }
+
+  .container_02 h1 {
+    text-align: center;
+    font-size: 31px;
+    margin-bottom: 100px;
+  }
+
+  .container {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .container_03 {
+    margin-right: 0; 
+  }
+
+  .container_03 img {
+    width: 100%;
+    height: auto; 
+    
+  }
+
+    /* ====================
+     Banner Imagem cachorro
+  ==================== */
+
+  .container-pai-img {
+    height: 400px;
+    width: 97%;
+  }
+
+  .container-pai-img {
+    background-attachment: scroll;
+  }
+
+  /* ====================
+     Estrutura 
+  ==================== */
+
+  .full-scaner {
+    height: auto;
+  }
+
+  .container_estrutura {
+    margin: 50px 0;
+    padding: 0 15px;
+  }
+
+  .text_estrutura {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .filho-estrutura {
+    flex: 0 0 100%;
+    max-width: 300px;
+  }
+
+   /* ====================
+     Modal
+  ==================== */
+  .modal-content {
+    max-width: 95%;
+    width: 100%;
+  }
+  .social-links span {
+    display: none;
+  }
+
+  .social-links img {
+    margin-left: 10px;
+  }
+
+  /* ====================
+     Formulario 
+  ==================== */
+
+  .container-formulario {
+    flex-direction: column;
+    padding: 0 15px;
+  }
+
+  .container-foto-vet {
+    width: 100%;
+    margin: 0px auto;
+    padding-left: 50px;
+    order: 2;
+  }
+
+  .form-container {
+    width: 110%;
+    padding-left: 67px;
+    order: 1;
+  }
+
+  .form-container h2 {
+    text-align: center;
+  }
+
+  .form-container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    order: 1;
+  }
+  .container-foto-vet {
+    padding: 0;
+  }
+
+  .container-foto-vet img {
+    width: 100%;
+    height: auto;
+  }
+  /* ====================
+     Footer
+  ==================== */
+  .container-pai-footer {
+    padding: 5px 15px;
+  }
+
+  .Direitos-footer {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  .endereco-footer {
+    display: block;
+    align-items: center;
+  }
+
+  .copyrigtht {
+    font-size: 1rem;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
 
  }
