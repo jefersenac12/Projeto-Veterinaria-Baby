@@ -824,7 +824,7 @@ main {
      Banner  Vídeo
   ==================== */
   .video-banner {
-    height: 72vh;
+    height: 81vh;
   }
 
   .content-overlay {
@@ -832,24 +832,21 @@ main {
     transform: translateX(-50%);
     text-align: center;
     width: 90%;
-    top: 12rem;
+    /* top: 12rem; */
   }
-  .video-banner video{
-    filter: none; /* Desliga o filtro */
-  }
+  /* Desliga o filtro */
+   /* .video-banner video{
+    filter: none;
+  }  */
 
   .content-overlay h1 {
-    font-size: 28px;
+    font-size: 25px;
     line-height: 1.2;
     color: #005d7f;
   }
   .content-overlay h2 {
-    font-size: 19px;
+    font-size: 14px;
 
-  }
-
-  .content-overlay p {
-    font-size: 1.2rem;
   }
 
   .content-overlay .logo-img {
@@ -1065,6 +1062,7 @@ main {
   }
 }
 
+
 /* =================================================== */
 
 /* Dispositivos móveis médios (376px–430px) */
@@ -1153,7 +1151,7 @@ main {
      Banner  Vídeo
   ==================== */
   .video-banner {
-    height: 73vh;
+    height: 93vh;
   }
 
   .content-overlay {
@@ -1170,10 +1168,6 @@ main {
   }
   .content-overlay h2 {
     font-size: 22px;
-  }
-
-  .content-overlay p {
-    font-size: 1.2rem;
   }
 
   .content-overlay .logo-img {
@@ -1478,7 +1472,7 @@ main {
   ==================== */
 
   .video-banner {
-    height: 73vh;
+    height: 77vh;
   }
 
   .content-overlay {
@@ -1486,7 +1480,6 @@ main {
     transform: translateX(-50%);
     text-align: center;
     width: 90%;
-    top: 23rem;
   }
 
   .content-overlay h1 {
@@ -1496,10 +1489,6 @@ main {
   }
   .content-overlay h2 {
     font-size: 22px;
-  }
-
-  .content-overlay p {
-    font-size: 1.2rem;
   }
 
   .content-overlay .logo-img {
@@ -1796,9 +1785,6 @@ main {
   /* ====================
      Banner  Vídeo
   ==================== */
-  .video-banner {
-    height: 82vh;
-  }
 
   .content-overlay {
     left: 50%;
@@ -1813,10 +1799,6 @@ main {
   }
   .content-overlay h2 {
     font-size: 22px;
-  }
-
-  .content-overlay p {
-    font-size: 1.2rem;
   }
 
   .content-overlay .logo-img {
@@ -1909,8 +1891,7 @@ main {
 
   .container_03 img {
     width: 100%;
-    height: auto; 
-    
+    height: auto;     
   }
 
     /* ====================
@@ -2028,5 +2009,6 @@ main {
   .social-links {
     justify-content: center;
   }
-
  }
+
+ 
